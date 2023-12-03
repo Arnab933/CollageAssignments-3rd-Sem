@@ -1,3 +1,3 @@
-# CollageAssignments-3rd-Sem
-# CollageAssignments-3rd-Sem
-# CollageAssignments-3rd-Sem
+# CollegeAssignments-3rd-Sem
+# CollegeAssignments-3rd-Sem
+# CollegeAssignments-3rd-Sem
