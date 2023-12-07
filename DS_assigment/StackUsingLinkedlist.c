@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
+
 #define INT_MIN -2147483648
+
+
 typedef struct node{
     int data;
     struct node* next;
