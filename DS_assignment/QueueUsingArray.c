@@ -58,7 +58,6 @@ void displayQueue(int*arr,int front,int rear){
 int main()
 {
     int arr[Max_Size];
-    int n;
     int front = 0;
     int rear = 0;
     int choice;
