@@ -1,27 +1,26 @@
-
-#!/bin/sh
+#!/bin/bash
 echo "Enter the number of elements:"
 read n
 i=0
 myArray=()
 echo "Enter elements:"
-while [ "$i" -lt "$n" ]; do
+while [ $i -lt $n ]; do
     read element
-    myArray[$i]="$element"
+    myArray[$i]=$element
     i=$((i + 1))
 done
 flag=0
 echo "Enter the key element for search:"
 read key
 i=0
-while [ "$i" -lt "$n" ]; do
-   if [ "${myArray[$i]}" -eq "$key" ]
+while [ $i -lt $n ]; do
+   if [ ${myArray[$i]} -eq $key ]
    then
    echo "Key searching is successfull"
    flag=1
     break
     fi
-    i=$((i + 1))
+    ((i++))
 done
 if [ "$flag" -eq 0 ]
 then 
