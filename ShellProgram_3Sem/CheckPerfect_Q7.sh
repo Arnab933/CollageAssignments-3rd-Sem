@@ -23,7 +23,7 @@ echo "Perfect numbers between $low and $high are:"
 
 for((i=$low; i <= $high; i++)); do
     if [ $(checkPerfect $i) -eq $i ]; then
-        echo -n "$(checkPerfect $i) " 
+        echo -n "$i " 
     fi
 done
 
